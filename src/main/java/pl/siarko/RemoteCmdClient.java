@@ -18,8 +18,8 @@ public class RemoteCmdClient {
     public static final String LOCKFILE = "FILE.lock";
     public static final String ID_FILE = "UNIQUE_ID";
 
-    public static  String staticRequestUrl = "http://siarko.pl/remote_cmd";
-    public static  String websocketServiceUrl = "ws://ws.siarko.pl:80";
+    public static  String staticRequestUrl = "http://example.deployed.pl/remote_cmd";
+    public static  String websocketServiceUrl = "ws://ws.example.deployed.pl:80";
 
     public static final String staticRequestUrlDev = "http://mk.pl/remote_cmd";
     public static final String websocketServiceUrlDev = "ws://mk.pl:1025";
